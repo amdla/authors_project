@@ -27,11 +27,10 @@ The Author Project is a simple CRUD web application for managing a list of Autho
     ```sh
     python manage.py runserver
     ```
-5. Alternatively you can run just
+5. Run the test file:
    ```sh
    python manage.py test authors_app
     ```
-   to run the test file.
 
 ## Usage
 Access the application by opening `http://127.0.0.1:8000` in your web browser.

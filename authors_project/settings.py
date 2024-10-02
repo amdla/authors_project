@@ -77,7 +77,6 @@ DATABASES = {
         'NAME': str(BASE_DIR / 'db.sqlite3'),
     }
 }
-print("DATABASES setting:", DATABASES)
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
