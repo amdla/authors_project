@@ -1,28 +1,22 @@
-# Library Project
+# Author Project
 
 ## Description
-The Library Project is a simple CRUD web application for managing a collection of books in a library. It allows users to add, update, delete, and view books in the library. The project is built using Python with Django, HTML, and CSS.
-
-## Features
-- **Add Books:** Add new books using just their ISBN codes - Google Book's API will do the rest for you!
-- **Manage users:** Add new users who can loan your books
-- **Manage loans:** Easily manage loan lists 
-
-
-## Installation
+The Author Project is a simple CRUD web application for managing a list of Authors. It allows users to add, update, delete, and view them. The project is built using Python with Django, HTML, and CSS.
 
 ### Prerequisites
 - Python 3.x
 - pip (Python package installer)
+- Django 5.1
+- some other stuff that you gotta figure out :D
 
 ### Steps
 1. Clone the repository:
     ```sh
-    git clone https://github.com/amdla/library_project.git
+    git clone https://github.com/amdla/authors_project.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd library_project
+    cd authors_project
     ```
 3. Apply migrations:
     ```sh
@@ -33,19 +27,14 @@ The Library Project is a simple CRUD web application for managing a collection o
     ```sh
     python manage.py runserver
     ```
+5. Alternatively you can run just
+   ```sh
+   python manage.py test authors_app
+    ```
+   to run the test file.
 
 ## Usage
-Access the application by opening `http://127.0.0.1:8000` in your web browser. Use the navigation bar to manage different tables and use the search bar to find specific records.
-
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For any questions or suggestions, please open an issue on GitHub.
-
-## Acknowledgements
-- [Django](https://www.djangoproject.com/) - The web framework used.
-- [Bootstrap](https://getbootstrap.com/) - Frontend framework for styling.
+Access the application by opening `http://127.0.0.1:8000` in your web browser.
 
 ---
 Made with ❤️ by [amdla](https://github.com/amdla).

@@ -3,3 +3,6 @@
 !*/migrations/__init__.py
 */migrations/__pycache__/
 .idea/
+__pycache__/
+authors_app/__pycache__/
+authors_project/__pycache__/
