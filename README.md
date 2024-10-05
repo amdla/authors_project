@@ -7,7 +7,7 @@ The Author Project is a simple CRUD web application for managing a list of Autho
 - Python 3.x
 - pip (Python package installer)
 - Django 5.1
-- some other stuff that you gotta figure out :D
+- idk what else
 
 ### Steps
 1. Clone the repository:
@@ -34,6 +34,3 @@ The Author Project is a simple CRUD web application for managing a list of Autho
 
 ## Usage
 Access the application by opening `http://127.0.0.1:8000` in your web browser.
-
----
-Made with ❤️ by [amdla](https://github.com/amdla).
